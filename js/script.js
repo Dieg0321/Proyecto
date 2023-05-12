@@ -10,8 +10,8 @@ nav.addEventListener('mouseover', () => {
     main.style.transform = 'translateX(0)';
     main.style.width = '53vw';
     main.style.left = '0';
-
 });
+
 nav.addEventListener('mouseleave', () => {
     // main.style.gridColumn = '1 / -2';
     nav.style.transform = 'translateX(-80%)';

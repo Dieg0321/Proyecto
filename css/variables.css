@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet');
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    src: url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+}
+
+:root {
+    --color-primario: #002147;
+    --color-secundario: #44687d;
+    --color-fuente: #3B6DB1;
+    --color-fondo: rgb(232, 232, 232);
+    --fuente-primaria: 'Nanum Gothic', sans-serif;
+    --fuente-secudaria: 'PT Sans', sans-serif;
+    --fuente-articulo: 'PT Serif', serif;
+}
