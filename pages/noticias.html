@@ -17,48 +17,28 @@
         <div class="contenedor_busqueda">
             <input class="busqueda" type="text" placeholder="Buscar...">
             <button class="busqueda_btn"><i class="icono_busqueda"></i></button>
+            <script src="../js/buscador.js"></script>
+
+
         </div>
         <div class="noticias-eventos-titulo">
-            <span>NOTICIAS Y EVENTOS</span>
+            <span>NOTICIAS</span>
         </div>
     </header>
     <nav id="nav_superior">
         <a href="../index.html">INICIO<i class="icon-triangulo"></i></a>
-        <div>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </div>
-        <a href="#">INVESTIGACIÓN<i class="icon-triangulo"></i></a>
-        <div>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </div>
+        <a href="../pages/investigacion.html">INVESTIGACIÓN<i class="icon-triangulo"></i></a>
+
         <a href="../pages/login.html">LOG IN<i class="icon-triangulo"></i></a>
-        <div>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </div>
         <a href="../pages/FAQ.html">PREGUNTAS FRECUENTES<i class="icon-triangulo"></i></a>
-        <div>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+    </nav>
+    <main id="contenido">
+        <div class="contenedor-titulo-noticias">
+            <h1>NOTICIAS</h1>
+            <span>Contacta la oficina de noticias: 01865 280528 ó <a
+                    href="news.office@admin.ox.ac.uk">news.office@admin.ox.ac.uk</a>
+            </span>
         </div>
-    </nav>
-    <nav>
-        <h1>NOTICIAS Y EVENTOS</h1>
-        <span>Contact the News Office: 01865 280528 or <a
-                href="news.office@admin.ox.ac.uk">news.office@admin.ox.ac.uk</a>
-        </span>
-    </nav>
-    <main class="contenido">
         <section>
             <a href="#">
                 <img src="../img/Schmid cover.jpg" alt="filosofo de oxford">
@@ -80,18 +60,110 @@
             </a>
         </section>
         <section>
-            <img src="" alt="">
-            <h3></h3>
+            <a href="#">
+                <img src="../img/Royal Society_0.jpg" alt="foto de la real sociedad">
+                <h3>La Royal Society elige a ocho científicos de Oxford como nuevos becarios</h3>
+            </a>
         </section>
         <section>
-            <img src="" alt="">
-            <h3></h3>
+            <a href="">
+                <img src="../img/neuron.jpg" alt="imagen de una neurona">
+                <h3>Se descubrió que los trastornos autoinmunes afectan a alrededor de una de cada diez personas</h3>
+            </a>
         </section>
         <section>
-            <img src="" alt="">
-            <h3></h3>
+            <a href="">
+                <img src="../img/chip.jpg" alt="imagen de un chip">
+                <h3>Las neuronas artificiales imitan las habilidades cerebrales complejas para la computación de IA de
+                    próxima generación</h3>
+            </a>
         </section>
     </main>
+    <aside id="aside-lateral">
+        <h2>Últimas noticias</h2>
+        <ul id="lista-noticias">
+            <li>
+                <a href="#">
+                    <h3>La investigación encuentra que los pacientes de minorías étnicas anhelan cercanía de los
+                        profesionales de la salud.
+                        <span class="fecha-noticia"><br>11 MAYO 2023</span>
+                    </h3>
+                    <span class="imagen-noticia noticia-1"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <h3>Consumidores en línea en riesgo de manipulación de precios 'inteligente': expertos de Oxford e
+                        Imperial
+                        <span class="fecha-noticia"><br>4 MAYO 2023</span>
+                    </h3>
+                    <span class="imagen-noticia noticia-2"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <h3>La primera Feria del Santuario de Oxford se llevará a cabo en mayo
+                        <span class="fecha-noticia"><br>5 MAYO 2023</span>
+                    </h3>
+                    <span class="imagen-noticia noticia-3"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <h3>Abordar el dilema ético de la responsabilidad en modelos de lenguaje grande
+                        <span class="fecha-noticia"><br>5 MAYO 2023</span>
+                    </h3>
+                    <span class="imagen-noticia noticia-4"></span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <footer>
+        <div class="contenedor-redes-footer">
+            <span>CONÉCTATE CON NOSOTROS</span>
+            <a href="https://www.youtube.com/user/oxford"><i class="icono-youtube-footer"></i></a>
+            <a href="https://twitter.com/oxfordalumni"><i class="icono-twitter-footer"></i></a>
+            <a href="https://www.facebook.com/oxfordalumni"><i class="icono-facebook-footer"></i></a>
+            <a href="https://co.linkedin.com/?original_referer="><i class="icono-linkedin-footer"></i></a>
+            <a href="https://www.instagram.com/oxford_uni/"><i class="icono-instagram-footer"></i></a>
+        </div>
+        <div class="contenedor-informacion informacion-sobre">
+            <span>INFORMACIÓN SOBRE</span>
+            <ul>
+                <li><a href="#">Plan estratégico</a></li>
+                <li><a href="#">Investigación de Oxford</a></li>
+                <li><a href="#">Bibliotecas</a></li>
+                <li><a href="#">Museos y colecciones</a></li>
+                <li><a href="#">Glosario de Oxford</a></li>
+                <li><a href="#">Privacidad de datos</a></li>
+                <li><a href="#">Deporte en Oxford</a></li>
+                <li><a href="#">Conferencias en Oxford</a></li>
+            </ul>
+        </div>
+        <div class="contenedor-informacion informacion-para">
+            <span>INFORMACIÓN PARA</span>
+            <ul>
+                <li><a href="#">Futuros estudiantes universitarios</a></li>
+                <li><a href="#">Futuros estudiantes de posgrado</a></li>
+                <li><a href="#">Estudiantes actuales de Oxford</a></li>
+                <li><a href="#">Personal actual de Oxford</a></li>
+                <li><a href="#">Visitantes/Turistas</a></li>
+                <li><a href="#">Profesores</a></li>
+                <li><a href="#">Negocios/Asociaciones</a></li>
+            </ul>
+        </div>
+        <div class="contenedor-informacion enlaces-rapidos">
+            <span>ENLACES RÁPIDOS</span>
+            <ul>
+                <li><a href="#">¿Alguna pregunta?</a></li>
+                <li><a href="#">Empleos y vacantes</a></li>
+                <li><a href="#">Fechas de termino</a></li>
+                <li><a href="#">Correo electrónico de Nexus365</a></li>
+                <li><a href="#">Dando a Oxford</a></li>
+            </ul>
+        </div>
+
+    </footer>
 </body>
 
 </html>
